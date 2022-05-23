@@ -1,0 +1,143 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.container{
+    background-color:none;
+    
+}
+
+.chart {
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 20px;
+    background-color: #EFF1F2;
+    box-shadow: 5px 5px 5px 5px #1F3445;
+  }
+  
+  .row {
+    margin-bottom: 150px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: #002542;
+  }
+
+  .logoParis{
+      margin-top: 2%;
+      margin-left: 2%;
+  }
+
+  .texteintro{
+      text-align: center;
+      margin-left: 25%;
+      margin-right: 25%;
+  }
+  .texteplatane{
+      margin-top: 80px;
+      margin-left: 32%;
+      margin-right: 32%;
+  }
+
+  .chart-title{
+      margin-top: 100px;
+      margin-left: 32%;
+  }
+
+  .card-title1, .chart-title{
+      color: #002542;
+  }
+  .card-title2{
+      color: #FFFFFF;
+  }
+
+
+  /********************************
+* Carousel styles
+*********************************/
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 120px;
+    margin-left: 32%;
+    margin-right: 32%;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+    list-style-type: none
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
+
+/********************************
+* Breakpoints
+*********************************/
+@media screen and (min-width: 576px) {
+    .carousel-item {
+        flex-basis: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body,
+    button,
+    input,
+    select,
+    optgroup,
+    textarea {
+        font-size: 1.125rem;
+    }
+
+    h1 {
+        font-size: 2.75rem;
+    }
+
+    .carousel-item {
+        flex-basis: 325px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .carousel-item {
+        flex-basis: 450px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    body,
+    button,
+    input,
+    select,
+    optgroup,
+    textarea {
+        font-size: 1.25rem;
+    }
+}
